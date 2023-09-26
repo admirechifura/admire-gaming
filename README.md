@@ -30,7 +30,5 @@ Kalaha Game has login page with username and password configured in the properti
 -Add leading scores and player name
 
 -Add swagger documentation secured with jwt tokens for endpoints where there is need for restricted access
-## Security configurations
-**Encrypt password for user in `application.properties` file:**
 
-In order for spring boot to be able to depcrypt encrypted password the environment variable `JASYPT_ENCRYPTOR_PASSWORD` needs to be set. This environment variable is passed to jasypt inside the `application.properties` files.
+-Encrypt password for user in application.properties file e.g using jasypt
