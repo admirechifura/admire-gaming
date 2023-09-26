@@ -11,7 +11,6 @@ public interface KalahaGame {
 
     int getTotalPebblesForPlayer1North();
 
-    //Below added for frontend
     void setSouthTurn(boolean southTurn);
 
     List<Integer> getPitListSouth();
